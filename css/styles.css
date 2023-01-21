@@ -1,0 +1,94 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    margin-top: 250px;
+    color: #11999E;
+    font-family: 'Pacifico', cursive;
+}
+h2{
+    font-family: 'Pacifico', cursive;
+    color: #11999E;
+}
+p{
+    font-size: 17px;
+}
+hr{
+    width: 30px;
+    height: 0px;
+    border-style: dotted;
+    border-bottom: 0px;
+    border-width: 10px;
+    color: #d6a04f;
+}
+.frontCloud{
+    position: absolute;
+    scale: 50%;
+    left: 350px;
+    top: -50px;
+}
+.behindCloud{
+    position: absolute;
+    scale: 65%;
+    top: -100px;
+    left: 600px;
+}
+#profileCartoon{
+    padding-bottom: 0px;
+    margin-bottom: -100px;
+    padding-top: 0px;
+    margin-top: -50px;
+}
+.profile{
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+.bottom-container{
+    background-color:#d6a04f;
+    height: 200px;
+}
+.btn {
+    background: #d6a04f;
+    background-image: -webkit-linear-gradient(top, #d6a04f, #d6a04f);
+    background-image: -moz-linear-gradient(top, #d6a04f, #d6a04f);
+    background-image: -ms-linear-gradient(top, #d6a04f, #d6a04f);
+    background-image: -o-linear-gradient(top, #d6a04f, #d6a04f);
+    background-image: linear-gradient(to bottom, #d6a04f, #d6a04f);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #ffb936;
+    background-image: -webkit-linear-gradient(top, #ffb936, #ffb936);
+    background-image: -moz-linear-gradient(top, #ffb936, #ffb936);
+    background-image: -ms-linear-gradient(top, #ffb936, #ffb936);
+    background-image: -o-linear-gradient(top, #ffb936, #ffb936);
+    background-image: linear-gradient(to bottom, #ffb936, #ffb936);
+    text-decoration: none;
+  }
+  a{
+    color: #11999E;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #EAF6F6;
+  }
+  .copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding-top: 10px;
+  }
